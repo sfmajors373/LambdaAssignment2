@@ -1,7 +1,12 @@
 <!--The custom CSS to aid the html to recreate the website-->
 
-header {
-	width: 100%;
+.intro-header{
+	background-image: url("https://assets.wired.com/photos/w_2000/wp-content/uploads/2016/12/BSP_054.jpg");
+	background: center center no-repeat;
+	background-size: cover;
+	margin-bottom: 50px;
+	display: block;
+	box-sizing: border-box;
 }
 
 p{
@@ -15,14 +20,21 @@ article{
 
 h1 {
 	font-family: 'Open Sans';
+	padding-top: 100px;
+	font-weight: bolder;
+	text-align: left;
 }
 
 h2 {
 	font-family: 'Open Sans';
+	font-weight: bolder;
+	text-align: left;
 } 
 
 h3 {
 	font-family: 'Open Sans';
+	font-weight: bolder;
+	text-align: left;
 }
 
 h4 {
@@ -33,10 +45,18 @@ h5 {
 	font-family: 'Open Sans';
 }
 
+.meta{
+	font-family: 'Lora';
+	font-size: 18px;
+	font-style: italic;
+	padding-bottom: 100px;
+}
+
 .paragraph-heading {
 	font-family:'Open Sans';
 	font-size: 34px;
 	font-weight:bolder;
+	text-align: left;
 }
 
 .blockquote {
